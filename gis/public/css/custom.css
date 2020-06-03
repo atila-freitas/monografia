@@ -1,0 +1,67 @@
+.content-header {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+
+.breadcrumb {
+    padding-right: 15px;
+}
+
+.btn {
+    margin-top: 8px;
+}
+
+.alert-list {
+    padding-left: 48px;
+}
+
+.map-legend {
+    margin-right: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.checkbox-text {
+    margin-left: 8px;
+    position: relative;
+    top: 2px;
+}
+
+.chart-desc {
+    padding: 10px 15px;
+}
+
+.chart-desc:hover {
+    background-color: #f7f7f7;
+}
+
+.btn-box-tool {
+    margin: 0;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+@media (min-width: 768px) {
+    .equal-panels, .equal-panels > div[class*='col-'] {
+        display: flex;
+    }
+
+    .equal-panels .panel {
+        display: flex;
+        flex: 1;
+        flex-flow: column nowrap;
+    }
+
+    .equal-panels .panel-body {
+        flex-grow: 1;
+    }
+}
